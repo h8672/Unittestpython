@@ -17,8 +17,8 @@ class GameTests(unittest.TestCase):
     def test_title_is_string(self):
         self.assertTrue(isinstance(self.newgame.get_title(), str), "test failed! title not string!")
         
-    def test_title_is_int(self):
-        self.assertTrue(isinstance(self.newgame.get_title(), int), "test failed! title not string!")
+    def test_fail_is_failt(self):
+        self.assertTrue(isinstance("fail", int), "Stupid test, testing if fail fails")
   
   
 if __name__ == '__main__':
