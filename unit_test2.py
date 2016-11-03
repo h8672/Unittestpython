@@ -1,5 +1,5 @@
 import unittest
-from 2dgame import 2Dgame
+from 2dgame import Dgame
 
 class GameTests(unittest.TestCase):
   def change_title(self):
